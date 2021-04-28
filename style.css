@@ -1,0 +1,551 @@
+#square1 {
+    border-radius: 25px;
+    background: #3b200e;
+    width: 632px;
+    height: 632px;
+    position: relative;
+    z-index: 1;
+    top: 25px;
+}
+#square2 {
+    border-radius: 15px;
+    background: #b3b0b0;
+    width: 612px;
+    height: 612px;
+    position: absolute;
+    z-index: 2;
+    left: 18px;
+    top: 42px;
+}
+
+/* Непарне число - коричнева клітина, парне - біла клітина*/
+#square3, #square5, #square7,  #square9,
+#square11, #square13, #square15, #square17,
+#square19, #square21, #square23, #square25,
+#square27, #square29, #square31, #square33,
+#square35, #square37, #square39, #square41,
+#square43, #square45, #square47, #square49,
+#square51, #square53, #square55, #square57,
+#square59, #square61, #square63, #square65
+{
+    background: #3b200e;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    z-index: 3;
+}
+#square3{
+    left: 32px;
+    top: 55px;
+}
+#square5{
+    left: 178px;
+    top: 55px;
+}
+#square7{
+    left: 324px;
+    top: 55px;
+}
+#square9{
+    left: 470px;
+    top: 55px;
+}
+
+                                                     /* Другий ряд */
+
+#square11{
+    left: 105px;
+    top: 128px;
+}
+#square13 {
+    left: 251px;
+    top: 128px;
+}
+#square15 {
+    left: 397px;
+    top: 128px;
+}
+#square17 {
+    left: 543px;
+    top: 128px;
+}
+
+
+                                                     /* Третій ряд */
+
+#square19{
+    left: 32px;
+    top: 201px;
+}
+#square21{
+    left: 178px;
+    top: 201px;
+}
+#square23{
+    left: 324px;
+    top: 201px;
+}
+#square25{
+    left: 470px;
+    top: 201px;
+}
+
+
+                                                     /* Четвертий ряд */
+
+#square27{
+    left: 105px;
+    top: 274px;
+}
+#square29 {
+    left: 251px;
+    top: 274px;
+}
+#square31 {
+    left: 397px;
+    top: 274px;
+}
+#square33 {
+    left: 543px;
+    top: 274px;
+}
+
+
+                                                     /* П'ятий ряд */
+
+#square35{
+    left: 32px;
+    top: 347px;
+}
+#square37{
+    left: 178px;
+    top: 347px;
+}
+#square39{
+    left: 324px;
+    top: 347px;
+}
+#square41{
+    left: 470px;
+    top: 347px;
+}
+
+
+                                                     /* Шостий ряд */
+
+#square43{
+    left: 105px;
+    top: 420px;
+}
+#square45 {
+    left: 251px;
+    top: 420px;
+}
+#square47{
+    left: 397px;
+    top: 420px;
+}
+#square49 {
+    left: 543px;
+    top: 420px;
+}
+
+
+                                                     /* Сьомий ряд */
+
+#square51{
+    left: 32px;
+    top: 493px;
+}
+#square53{
+    left: 178px;
+    top: 493px;
+}
+#square55{
+    left: 324px;
+    top: 493px;
+}
+#square57{
+    left: 470px;
+    top: 493px;
+}
+
+
+                                                     /* Восьмий ряд */
+
+#square59{
+    left: 105px;
+    top: 566px;
+}
+#square61{
+    left: 251px;
+    top: 566px;
+}
+#square63{
+    left: 397px;
+    top: 566px;
+}
+#square65 {
+    left: 543px;
+    top: 566px;
+}
+#square4, #square6, #square8, #square10, 
+#square12, #square14, #square16, #square18, 
+#square20, #square22, #square24, #square26,
+#square28, #square30, #square32, #square34,
+#square36, #square38, #square40, #square42, 
+#square44, #square46, #square48, #square50, 
+#square52, #square54, #square56, #square58,
+#square60, #square62, #square64, #square66 {
+    background: #ffefe6;
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    z-index: 3;
+}
+#square4 {
+    left: 105px;
+    top: 55px;
+}
+#square6 {
+    left: 251px;
+    top: 55px;
+}
+#square8 {
+    left: 397px;
+    top: 55px;
+}
+#square10 {
+    left: 543px;
+    top: 55px;
+}
+
+                                                     /* Другий ряд */
+#square12 {
+    left: 32px;
+    top: 128px;
+}
+#square14 {
+    left: 178px;
+    top: 128px;
+}
+#square16 {
+    left: 324px;
+    top: 128px;
+}
+#square18 {
+    left: 470px;
+    top: 128px;
+}
+                                                    /* Третій ряд */
+#square20 {
+    left: 105px;
+    top: 201px;
+}
+#square22 {
+    left: 251px;
+    top: 201px;
+}
+#square24 {
+    left: 397px;
+    top: 201px;
+}
+#square26 {
+    left: 543px;
+    top: 201px;
+} 
+                                                    /* Четвертий ряд */ 
+#square28 {
+    left: 32px;
+    top: 274px;
+}
+#square30 {
+    left: 178px;
+    top: 274px;
+}
+#square32 {
+    left: 324px;
+    top: 274px;
+}
+#square34 {
+    left: 470px;
+    top: 274px;
+}
+                                                    /* П'ятий ряд */ 
+#square36 {
+    left: 105px;
+    top: 347px;
+}
+#square38 {
+    left: 251px;
+    top: 347px;
+}
+#square40 {
+    left: 397px;
+    top: 347px;
+}
+#square42 {
+    left: 543px;
+    top: 347px;
+} 
+                                                    /* Шостий ряд */
+#square44 {
+    left: 32px;
+    top: 420px;
+}
+#square46 {
+    left: 178px;
+    top: 420px;
+}
+#square48 {
+    left: 324px;
+    top: 420px;
+}
+#square50 {
+    left: 470px;
+    top: 420px;
+}
+                                                    /* Сьомий ряд */ 
+#square52 {
+    left: 105px;
+    top: 493px;
+}
+#square54 {
+    left: 251px;
+    top: 493px;
+}
+#square56 {
+    left: 397px;
+    top: 493px;
+}
+#square58 {
+    left: 543px;
+    top: 493px;
+} 
+                                                    /* Восьмий ряд */  
+#square60 {
+    left: 32px;
+    top: 566px;
+}
+#square62 {
+    left: 178px;
+    top: 566px;
+}
+#square64 {
+    left: 324px;
+    top: 566px;
+}
+#square66 {
+    left: 470px;
+    top: 566px;
+} 
+#text, #text2, #number, #number2{
+    font-family: "Times New Roman";
+    position: absolute;
+    font-size: 15px;
+    z-index: 4;
+}
+#text{
+    left: 63px;
+    top: 24px;
+}
+#text2{
+    left: -1px;
+    top: 625px;
+    transform: rotate(180deg);
+}
+#number{
+    width:1em; line-height:73px;
+    word-wrap: break-word;
+    left: 22px;
+    top: 36px;
+}
+#number2{
+    width:1em; line-height:73px;
+    word-wrap: break-word;
+    left: 611px;
+    top: 36px;
+    transform: rotate(180deg);
+
+}
+p {
+    letter-spacing: 63px;
+} 
+
+                                                    /* Білі шахматні фігури */  
+
+#image1, #image2, #image3, #image4, #image5, #image6, #image7, #image8,
+#image9, #image10, #image11, #image12, #image13, #image14, #image15, #image16{
+    height: auto;
+    position: absolute;
+    z-index: 5;
+}
+#image1{
+    width: 50px;
+    left: 45px;
+    top: 65px;
+}
+#image2{
+    width: 60px;
+    left: 110px;
+    top: 60px;
+}
+#image3{
+    width: 70px;
+    left: 180px;
+    top: 60px;
+}
+#image4{
+    width: 65px;
+    left: 255px;
+    top: 60px;
+}
+#image5{
+    width: 70px;
+    left: 327px;
+    top: 60px;
+}
+#image6{
+    width: 70px;
+    left: 400px;
+    top: 60px;
+}
+#image7{
+    width: 60px;
+    left: 473px;
+    top: 60px;
+}
+#image8{
+    width: 50px;
+    left: 555px;
+    top: 65px;
+}
+#image9{
+    width: 50px;
+    left: 43px;
+    top: 133px;
+}
+#image10{
+    width: 50px;
+    left: 116px;
+    top: 133px;
+}
+#image11{
+    width: 50px;
+    left: 189px;
+    top: 133px;
+}
+#image12{
+    width: 50px;
+    left: 262px;
+    top: 133px;
+}
+#image13{
+    width: 50px;
+    left: 335px;
+    top: 133px;
+}
+#image14{
+    width: 50px;
+    left: 408px;
+    top: 133px;
+}
+#image15{
+    width: 50px;
+    left: 481px;
+    top: 133px;
+}
+#image16{
+    width: 50px;
+    left: 554px;
+    top: 133px;
+}
+
+                                                    /* Чорні шахматні фігури */  
+
+#image17, #image18, #image19, #image20, #image21, #image22, #image23, #image24,
+#image25, #image26, #image27, #image28, #image29, #image30, #image31, #image32{
+    height: auto;
+    position: absolute;
+    z-index: 5;
+}
+#image17{
+    width: 50px;
+    left: 45px;
+    top: 576px;
+}
+#image18{
+    width: 60px;
+    left: 110px;
+    top: 578px;
+}
+#image19{
+    width: 70px;
+    left: 180px;
+    top: 572px;
+}
+#image20{
+    width: 65px;
+    left: 255px;
+    top: 576px;
+}
+#image21{
+    width: 70px;
+    left: 327px;
+    top: 570px;
+}
+#image22{
+    width: 70px;
+    left: 400px;
+    top: 572px;
+}
+#image23{
+    width: 60px;
+    left: 473px;
+    top: 578px;
+}
+#image24{
+    width: 50px;
+    left: 555px;
+    top: 578px;
+}
+#image25{
+    width: 50px;
+    left: 43px;
+    top: 496px;
+}
+#image26{
+    width: 50px;
+    left: 116px;
+    top: 496px;
+}
+#image27{
+    width: 50px;
+    left: 189px;
+    top: 496px;
+}
+#image28{
+    width: 50px;
+    left: 262px;
+    top: 496px;
+}
+#image29{
+    width: 50px;
+    left: 335px;
+    top: 496px;
+}
+#image30{
+    width: 50px;
+    left: 408px;
+    top: 496px;
+}
+#image31{
+    width: 50px;
+    left: 481px;
+    top: 496px;
+}
+#image32{
+    width: 50px;
+    left: 554px;
+    top: 496px;
+}
